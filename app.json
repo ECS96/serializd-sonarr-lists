@@ -1,0 +1,10 @@
+{
+    "name": "serializd-sonarr-lists",
+    "description": "Connect sonarr to serializd.com watchlists",
+    "addons": [
+        {
+            "plan": "heroku-redis:hobby-dev",
+            "as": "REDIS"
+        }
+    ]
+}
